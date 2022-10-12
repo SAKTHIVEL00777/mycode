@@ -4,7 +4,7 @@ public static void main(String arg[])
 {
      Theatre raja=new Theatre(); //Object Creation
 
-     int balance=raja.bookTicket(200);//Method Calling, receive and store data value of balance in balance
+     int balance=raja.bookTicket(200);//Method Calling, receive and store data value of balance 
          
      System.out.println("After booking ticket"+ balance);//Concatination Operator ("String"+value)
 

@@ -1,13 +1,25 @@
-public class Main{
-
-static void myMethod(){
-
-System.out.println(" i just got executed");
-
+class Area {
+ 
+  int length;
+  int breadth;
+ 
+  // constructor to initialize values
+   Area(int length, int breadth) {
+    this.length = length;
+    this.breadth = breadth;
+  }
+ 
+  // method to calculate area
+  public void getArea() {
+    int area = length * breadth;
+    System.out.println("Area: " + area);
+  }
 }
-public static void main(String arg[]){
-
-  myMethod();
-}
-
+ 
+class Main{
+  public static void main(String[] args) {
+ 
+    Area ob = new Area(2, 16);
+    ob.getArea();
+  }
 }

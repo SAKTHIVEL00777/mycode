@@ -12,7 +12,7 @@ Staff(int id,String name){
        this. name=name;
 
 }
-Staff(int id,String name,String dept,String city){
+Staff(int id, String name,String dept,String city){
        this. id=id;
        this.name=name;
        this.dept=dept;
@@ -32,7 +32,6 @@ Staff(int id,String name,String dept, String city,String college,int salary){
 {
     System.out.println("Id:"+id+"  Name: "+name+"  Dept: "+dept+"  City: "+city+"  College: "+college+"  Salary: " +salary);
      
-
 }
 
 public static void main(String args[]){
@@ -47,9 +46,5 @@ public static void main(String args[]){
         s3.show();
 
 }
-
-
-
-
 
 }

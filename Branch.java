@@ -23,7 +23,7 @@ public static void main(String args[]){
     Branch br=new Branch();
 
      
-      System.out.println("Salary :"+br.salary);
+      System.out.println(br.salary);
     
       br.work();
     

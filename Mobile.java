@@ -13,8 +13,8 @@ public static void main(String args[]){
   
    Mobile samsung=new Mobile();
 
-     System.out.println("Mobile Price:"+samsung.price);
-     System.out.println("Name:"+samsung.name);
+     System.out.println("Mobile Price: "+samsung.price);
+     System.out.println("Name: "+samsung.name);
    
       samsung.sms();
       samsung.call();
@@ -22,8 +22,8 @@ public static void main(String args[]){
  
    Telephone bsnl=new Telephone();
    
-      System.out.println("Telephone Price"+bsnl.price);
-      System.out.println("Name:"+bsnl.name);
+      System.out.println("Telephone Price: "+bsnl.price);
+      System.out.println("Name: "+bsnl.name);
 
       bsnl.call();
       bsnl .receive_call();

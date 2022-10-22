@@ -1,6 +1,5 @@
 class Mother{
- 
-String name="VIJAYA";
+
 int price=50000; 
 
 Mother(){

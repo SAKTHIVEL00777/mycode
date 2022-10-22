@@ -1,6 +1,5 @@
 class Daugter extends Mother{
  
-String name="ANU";
 int price=75000;
 
 Daugter(){

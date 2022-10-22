@@ -1,6 +1,5 @@
 class GrandDaugter extends Daugter{
  
-//String name="ASHIKA";
 int price=100000;
 
 GrandDaugter(){
@@ -30,7 +29,6 @@ public static void main(String args[]){
     gd.scooty();
     gd.price();
 
-  //  System.out.println(gd.name);
 
 
 }

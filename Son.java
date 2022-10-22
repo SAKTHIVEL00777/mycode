@@ -1,26 +1,32 @@
-class Son extends Father{
+class Son extends Dad{
 
 int salary=25000;
 
-void bike(){
-System.out.println("ns200");
-super.bike();
-System.out.println("father salary="+super.salary);
+Son(){
+
+ System.out.println("SON WELCOME");
 
 }
+/*
+Son(int r){
 
+ System.out.println("SON WELCOME kooooo");
 
-public static void main(String arg[]){
-
-Son s=new Son();
-System.out.println(s.salary);
-s.bike();
-s.car();
-
-/*Father f=new Father();
-f.bike();
-s.salary
+}
 */
+void car(){
+
+ System.out.println("SON CAR:" +"BMW");
+
+ super.car();
+
 }
+void salary(){
+
+ System.out.println("SON SALARY:"+salary);
+ System.out.println("DAD SALARY:"+super.salary);
+
+}
+
 
 }

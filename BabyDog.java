@@ -1,5 +1,10 @@
 class BabyDog extends Dog
 {  
+/*BabyDog(){
+
+System.out.println("welcome all dogs");
+}
+*/
 void weep()
 {
 System.out.println("weeping...");

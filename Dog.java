@@ -4,6 +4,7 @@ void bark()
 {
 System.out.println("barking...");
 }  
+ 
 }
 //class TestInheritance{  
 /*public static void main(String args[]){  

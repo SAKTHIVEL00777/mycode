@@ -10,7 +10,7 @@ System.out.println("constructor1");
 }*/
  void match(){
  
-  System.out.println("PUNJAB STATE MATCH WIN 1 TIMES");
+  System.out.println("PUNJAB STATE MATCH WIN 2 TIMES");
 
 }
 public static void main(String args[]){

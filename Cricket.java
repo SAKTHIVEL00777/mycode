@@ -1,4 +1,4 @@
-class Cricket{
+J7class Cricket{
 
 void match(){
    System.out.println("The Total Match is" + 105 );
@@ -11,6 +11,9 @@ void run(){
 void best(){
    System.out.println("The Total Best is" + 155);
 }
+void wicket() {
+System.out.println("The Total wicket is" + 100);
+}
 
 public static void main(String args[]){
 
@@ -18,6 +21,7 @@ public static void main(String args[]){
       cri.match();
       cri.run();
       cri.best();
+      cri.wicket();
 
 }
 

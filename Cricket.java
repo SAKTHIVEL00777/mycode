@@ -21,7 +21,7 @@ public static void main(String args[]){
       cri.match();
       cri.run();
       cri.best();
-      cri.wicket();
+      // cri.wicket();
 
 }
 

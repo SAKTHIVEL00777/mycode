@@ -1,4 +1,4 @@
-J7class Cricket{
+class Cricket{
 
 void match(){
    System.out.println("The Total Match is" + 105 );
